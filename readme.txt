@@ -1,0 +1,3 @@
+This is a git repo that is just for adding experimental data.
+In contrast to the repo that holds our source code, it
+is OK to abuse this repo by adding pdfs, .nc files, etc...
