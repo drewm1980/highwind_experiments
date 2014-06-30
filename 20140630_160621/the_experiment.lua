@@ -1,0 +1,7 @@
+--print "Running experimint NAOOOO!"
+--sleep(.5)
+--start_stepping()
+--sleep(21)
+--stop_stepping()
+--print "Exiting"
+--os.exit()
