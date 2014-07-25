@@ -1,0 +1,435 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.7.0' compiled with GCC 4.6.3. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1406284280645318394 ticks ( 1.40628e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/ros/hydro/lib/orocos:/home/klarl/planepower/components/main:/home/klarl/planepower/components/carousel2:/home/klarl/planepower/components/carousel2/lineAngleSensor2:/home/klarl/planepower/components/carousel2/armboneLisaSensors:/home/klarl/planepower/components/carousel2/siemensSensors:/home/klarl/planepower/components/carousel2/siemensActuators:/home/klarl/planepower/components/carousel2/carouselSimulator:/home/klarl/planepower/components/carousel2/gainLoader/resampler . Searching in: /opt/ros/hydro/lib/orocos:/home/klarl/planepower/components/main:/home/klarl/planepower/components/carousel2:/home/klarl/planepower/components/carousel2/lineAngleSensor2:/home/klarl/planepower/components/carousel2/armboneLisaSensors:/home/klarl/planepower/components/carousel2/siemensSensors:/home/klarl/planepower/components/carousel2/siemensActuators:/home/klarl/planepower/components/carousel2/carouselSimulator:/home/klarl/planepower/components/carousel2/gainLoader/resampler
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.000 [ Info   ][Logger] Loading plugin libraries from directory /opt/ros/hydro/lib/orocos/gnulinux/./plugins ...
+0.000 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.001 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.001 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading typekit libraries from directory /opt/ros/hydro/lib/orocos/gnulinux/./types ...
+0.011 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.011 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.012 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.012 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.012 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.022 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for rt_string
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.022 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.022 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.022 [ Info   ][Logger] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/lineAngleSensor2/./types ...
+0.028 [ Info   ][TypekitRepository::Import] Loading Typekit LineAnglesTypekit.
+0.028 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'LineAnglesTypekit' from 'LineAngles.so'
+0.028 [ Info   ][Logger] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/armboneLisaSensors/./types ...
+0.030 [ Info   ][TypekitRepository::Import] Loading Typekit ImuAccelTypekit.
+0.030 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'ImuAccelTypekit' from 'ImuAccel.so'
+0.031 [ Info   ][TypekitRepository::Import] Loading Typekit ImuMagTypekit.
+0.031 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'ImuMagTypekit' from 'ImuMag.so'
+0.032 [ Info   ][TypekitRepository::Import] Loading Typekit ImuGyroTypekit.
+0.032 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'ImuGyroTypekit' from 'ImuGyro.so'
+0.032 [ Info   ][Logger] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/siemensSensors/./types ...
+0.033 [ Info   ][TypekitRepository::Import] Loading Typekit SiemensDriveStateTypekit.
+0.033 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'SiemensDriveStateTypekit' from 'SiemensDriveState.so'
+0.033 [ Info   ][Logger] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/siemensActuators/./types ...
+0.035 [ Info   ][TypekitRepository::Import] Loading Typekit SiemensDriveCommandTypekit.
+0.035 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'SiemensDriveCommandTypekit' from 'SiemensDriveCommand.so'
+0.035 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/ros/hydro/lib/orocos:/home/klarl/planepower/components/main:/home/klarl/planepower/components/carousel2:/home/klarl/planepower/components/carousel2/lineAngleSensor2:/home/klarl/planepower/components/carousel2/armboneLisaSensors:/home/klarl/planepower/components/carousel2/siemensSensors:/home/klarl/planepower/components/carousel2/siemensActuators:/home/klarl/planepower/components/carousel2/carouselSimulator:/home/klarl/planepower/components/carousel2/gainLoader/resampler . Searching in: /opt/ros/hydro/lib/orocos:/home/klarl/planepower/components/main:/home/klarl/planepower/components/carousel2:/home/klarl/planepower/components/carousel2/lineAngleSensor2:/home/klarl/planepower/components/carousel2/armboneLisaSensors:/home/klarl/planepower/components/carousel2/siemensSensors:/home/klarl/planepower/components/carousel2/siemensActuators:/home/klarl/planepower/components/carousel2/carouselSimulator:/home/klarl/planepower/components/carousel2/gainLoader/resampler
+0.035 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='lua'
+0.035 [ Info   ][lua] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1256 ).
+0.035 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+0.035 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1257 ).
+0.036 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.036 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1258 ).
+0.036 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] No site file was found. Importing 'ocl' by default.
+0.036 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/hydro/lib/orocos/gnulinux/ocl ...
+0.037 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/hydro/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.038 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaComponent'
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/hydro/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.049 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/hydro/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.050 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaTLSFComponent'
+0.051 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/hydro/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.052 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.053 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/hydro/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.053 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/hydro/lib/orocos/gnulinux/ocl/types ...
+0.054 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/hydro/lib/orocos/gnulinux/ocl/plugins ...
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.054 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.055 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.057 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading PLANEPOWER components...
+0.057 [ Info   ][ComponentLoader::import(package, path_list)] Component package 'ocl' already imported.
+0.057 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading HIGHWIND hardware related components...
+0.057 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/siemensActuators ...
+0.059 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/siemensActuators/siemensActuators.so'
+0.059 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'SiemensActuators'
+0.059 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/siemensActuators/types ...
+0.059 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='siemensActuators'
+0.060 [ Info   ][siemensActuators] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1259 ).
+0.060 [ Info   ][loadComponent] Adding siemensActuators as new peer:  OK.
+0.060 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext siemensActuators
+0.060 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/siemensSensors ...
+0.062 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/siemensSensors/siemensSensors.so'
+0.062 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'SiemensSensors'
+0.062 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/siemensSensors/types ...
+0.062 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='siemensSensors'
+0.062 [ Info   ][siemensSensors] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1260 ).
+0.062 [ Info   ][loadComponent] Adding siemensSensors as new peer:  OK.
+0.062 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext siemensSensors
+0.062 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/lineAngleSensor2 ...
+0.063 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/lineAngleSensor2/lineAngleSensor2.so'
+0.063 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'LineAngleSensor2'
+0.063 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/lineAngleSensor2/types ...
+0.063 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='lineAngleSensor2'
+0.063 [ Info   ][lineAngleSensor2] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1261 ).
+0.063 [ Info   ][loadComponent] Adding lineAngleSensor2 as new peer:  OK.
+0.064 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext lineAngleSensor2
+0.064 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/armboneLisaSensors ...
+0.066 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/armboneLisaSensors/armboneLisaSensors.so'
+0.066 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'ArmboneLisaSensors'
+0.066 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/armboneLisaSensors/types ...
+0.067 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='armboneLisaSensors'
+0.067 [ Info   ][armboneLisaSensors] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1262 ).
+0.067 [ Info   ][loadComponent] Adding armboneLisaSensors as new peer:  OK.
+0.067 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext armboneLisaSensors
+0.067 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/carouselSimulator ...
+0.067 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/carouselSimulator/carouselSimulator.so'
+0.067 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'CarouselSimulator'
+0.068 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='carouselSimulator'
+0.068 [ Info   ][carouselSimulator] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1263 ).
+0.068 [ Info   ][loadComponent] Adding carouselSimulator as new peer:  OK.
+0.068 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext carouselSimulator
+0.068 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=96, CPU affinity=64, with name='siemensSensors'
+0.068 [ Info   ][siemensSensors] Thread created with scheduler type 'ORO_SCHED_RT', priority 96, cpu affinity 64 and period 0 (PID= 1264 ).
+0.068 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=96, CPU affinity=64, with name='lineAngleSensor2'
+0.068 [ Info   ][lineAngleSensor2] Thread created with scheduler type 'ORO_SCHED_RT', priority 96, cpu affinity 64 and period 0 (PID= 1265 ).
+0.068 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=96, CPU affinity=64, with name='armboneLisaSensors'
+0.068 [ Info   ][armboneLisaSensors] Thread created with scheduler type 'ORO_SCHED_RT', priority 96, cpu affinity 64 and period 0 (PID= 1266 ).
+0.069 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=96, CPU affinity=64, with name='siemensActuators'
+0.069 [ Info   ][siemensActuators] Thread created with scheduler type 'ORO_SCHED_RT', priority 96, cpu affinity 64 and period 0 (PID= 1267 ).
+0.069 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading function generator component...
+0.069 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/functionGenerator ...
+0.071 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/functionGenerator/functionGenerator.so'
+0.072 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'FunctionGenerator'
+0.072 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/functionGenerator/types ...
+0.073 [ Info   ][TypekitRepository::Import] Loading Typekit ReferenceTypekit.
+0.073 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ReferenceTypekit' from 'Reference.so'
+0.073 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='functionGenerator'
+0.073 [ Info   ][functionGenerator] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1268 ).
+0.073 [ Info   ][loadComponent] Adding functionGenerator as new peer:  OK.
+0.073 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext functionGenerator
+0.073 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=97, CPU affinity=64, with name='functionGenerator'
+0.074 [ Info   ][functionGenerator] Thread created with scheduler type 'ORO_SCHED_RT', priority 97, cpu affinity 64 and period 0.025 (PID= 1269 ).
+0.074 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading HIGHWIND controller related components...
+0.074 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/resampler ...
+0.076 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/resampler/resampler.so'
+0.076 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'Resampler'
+0.076 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/resampler/types ...
+0.078 [ Info   ][TypekitRepository::Import] Loading Typekit ResampledMeasurementsTypekit.
+0.078 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ResampledMeasurementsTypekit' from 'ResampledMeasurements.so'
+0.078 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='resampler'
+0.078 [ Info   ][resampler] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1270 ).
+0.078 [ Info   ][loadComponent] Adding resampler as new peer:  OK.
+0.078 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext resampler
+0.078 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/pidGainLoader ...
+0.079 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/pidGainLoader/pidGainLoader.so'
+0.079 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'PidGainLoader'
+0.079 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/pidGainLoader/types ...
+0.081 [ Info   ][TypekitRepository::Import] Loading Typekit PIDControllerGainsTypekit.
+0.081 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'PIDControllerGainsTypekit' from 'PIDControllerGains.so'
+0.081 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='pidGainLoader'
+0.081 [ Info   ][pidGainLoader] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1271 ).
+0.081 [ Info   ][loadComponent] Adding pidGainLoader as new peer:  OK.
+0.081 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext pidGainLoader
+0.081 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/controllerTemplate ...
+0.086 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/controllerTemplate/controllerTemplate.so'
+0.086 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'ControllerTemplate'
+0.086 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/carousel2/controllerTemplate/types ...
+0.088 [ Info   ][TypekitRepository::Import] Loading Typekit PIDControllerDebugTypekit.
+0.088 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'PIDControllerDebugTypekit' from 'PIDControllerDebug.so'
+0.088 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='controller'
+0.088 [ Info   ][controller] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1272 ).
+0.088 [ Info   ][loadComponent] Adding controller as new peer:  OK.
+0.088 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext controller
+0.088 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=97, CPU affinity=64, with name='resampler'
+0.088 [ Info   ][resampler] Thread created with scheduler type 'ORO_SCHED_RT', priority 97, cpu affinity 64 and period 0.02 (PID= 1273 ).
+0.088 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=60, CPU affinity=2, with name='pidGainLoader'
+0.089 [ Info   ][pidGainLoader] Thread created with scheduler type 'ORO_SCHED_RT', priority 60, cpu affinity 2 and period 0 (PID= 1274 ).
+0.089 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=97, CPU affinity=64, with name='controller'
+0.089 [ Info   ][controller] Thread created with scheduler type 'ORO_SCHED_RT', priority 97, cpu affinity 64 and period 0 (PID= 1275 ).
+0.089 [ Info   ][connect] Connected Port siemensSensors.data to  resampler.driveState.
+0.089 [ Info   ][connect] Connected Port lineAngleSensor2.data to  resampler.lineAngles.
+0.089 [ Info   ][connect] Connected Port functionGenerator.refData to  controller.reference.
+0.089 [ Info   ][connect] Connected Port resampler.data to  controller.resampledMeasurements.
+0.089 [ Info   ][connect] Connected Port pidGainLoader.gains to  controller.gains.
+0.089 [ Info   ][connect] Connected Port controller.data to  siemensActuators.controls.
+0.089 [ Info   ][PropertyLoader:load] Loading properties into Service 'pidGainLoader' with '../../components/carousel2/pidGainLoader/gains.cpf'.
+0.091 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] controllerTemplate: First read to measurements port was indeed not newData!
+0.091 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading HIGHWIND logging related components...
+0.099 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Detected that component siemensSensors exists!
+0.099 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='siemensSensorsReporter'
+0.099 [ Info   ][siemensSensorsReporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1278 ).
+0.099 [ Info   ][loadComponent] Adding siemensSensorsReporter as new peer:  OK.
+0.099 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.100 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.100 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.100 [ Info   ][ReportingComponent] Monitoring OutputPort triggerOut : ok.
+0.100 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=1, with name='siemensSensorsReporter'
+0.100 [ Info   ][siemensSensorsReporter] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 1 and period 0 (PID= 1279 ).
+0.100 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.101 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.101 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.101 [ Info   ][ReportingComponent] Monitoring OutputPort triggerOut : ok.
+0.102 [ Info   ][ReportingComponent] Variable TimeStamp successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.winchSpeedSetpoint successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.winchSpeedSmoothed successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.winchEncoderPosition successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.winchTorque successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.winchCurrent successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.carouselSpeedSetpoint successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.carouselSpeedSmoothed successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.carouselEncoderPosition successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.carouselTorque successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.carouselCurrent successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.plcWinchSpeedSetpoint successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.plcCarouselSpeedSetpoint successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.ts_trigger successfully created
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.data.ts_elapsed successfully created
+0.102 [ Info   ][ReportingComponent] Serializer still in progress
+0.102 [ Info   ][ReportingComponent] Variable siemensSensors.triggerOut successfully created
+0.102 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Detected that component lineAngleSensor2 exists!
+0.102 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='lineAngleSensor2Reporter'
+0.102 [ Info   ][lineAngleSensor2Reporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1280 ).
+0.102 [ Info   ][loadComponent] Adding lineAngleSensor2Reporter as new peer:  OK.
+0.102 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.103 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.103 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=1, with name='lineAngleSensor2Reporter'
+0.103 [ Info   ][lineAngleSensor2Reporter] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 1 and period 0 (PID= 1281 ).
+0.103 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.103 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.103 [ Info   ][ReportingComponent] Variable TimeStamp successfully created
+0.103 [ Info   ][ReportingComponent] Variable lineAngleSensor2.data.azimuth successfully created
+0.103 [ Info   ][ReportingComponent] Variable lineAngleSensor2.data.elevation successfully created
+0.103 [ Info   ][ReportingComponent] Variable lineAngleSensor2.data.ts_trigger successfully created
+0.103 [ Info   ][ReportingComponent] Variable lineAngleSensor2.data.ts_elapsed successfully created
+0.103 [ Info   ][ReportingComponent] Serializer still in progress
+0.103 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Detected that component armboneLisaSensors exists!
+0.103 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='armboneLisaSensorsReporter'
+0.103 [ Info   ][armboneLisaSensorsReporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1282 ).
+0.104 [ Info   ][loadComponent] Adding armboneLisaSensorsReporter as new peer:  OK.
+0.104 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.104 [ Info   ][ReportingComponent] Monitoring OutputPort GyroState : ok.
+0.104 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.104 [ Info   ][ReportingComponent] Monitoring OutputPort MagState : ok.
+0.104 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.104 [ Info   ][ReportingComponent] Monitoring OutputPort AccelState : ok.
+0.105 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=1, with name='armboneLisaSensorsReporter'
+0.105 [ Info   ][armboneLisaSensorsReporter] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 1 and period 0 (PID= 1283 ).
+0.105 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.105 [ Info   ][ReportingComponent] Monitoring OutputPort GyroState : ok.
+0.105 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.105 [ Info   ][ReportingComponent] Monitoring OutputPort MagState : ok.
+0.105 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.105 [ Info   ][ReportingComponent] Monitoring OutputPort AccelState : ok.
+0.105 [ Info   ][ReportingComponent] Variable TimeStamp successfully created
+0.105 [ Info   ][ReportingComponent] Variable armboneLisaSensors.GyroState.gp successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.GyroState.gq successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.GyroState.gr successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.GyroState.ts_trigger successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.GyroState.ts_elapsed successfully created
+0.106 [ Info   ][ReportingComponent] Serializer still in progress
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.MagState.mx successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.MagState.my successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.MagState.mz successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.MagState.angle successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.MagState.ts_trigger successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.MagState.ts_elapsed successfully created
+0.106 [ Info   ][ReportingComponent] Serializer still in progress
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.AccelState.ax successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.AccelState.ay successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.AccelState.az successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.AccelState.ts_trigger successfully created
+0.106 [ Info   ][ReportingComponent] Variable armboneLisaSensors.AccelState.ts_elapsed successfully created
+0.106 [ Info   ][ReportingComponent] Serializer still in progress
+0.106 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Detected that component resampler exists!
+0.106 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='resamplerReporter'
+0.106 [ Info   ][resamplerReporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1284 ).
+0.106 [ Info   ][loadComponent] Adding resamplerReporter as new peer:  OK.
+0.106 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.107 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.107 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=1, with name='resamplerReporter'
+0.107 [ Info   ][resamplerReporter] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 1 and period 0 (PID= 1285 ).
+0.107 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.107 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.107 [ Info   ][ReportingComponent] Variable TimeStamp successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.winchSpeedSmoothed successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.winchEncoderPosition successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.carouselSpeedSmoothed successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.carouselEncoderPosition successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.azimuth successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.elevation successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.ts_trigger successfully created
+0.107 [ Info   ][ReportingComponent] Variable resampler.data.ts_elapsed successfully created
+0.107 [ Info   ][ReportingComponent] Serializer still in progress
+0.107 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Detected that component controller exists!
+0.107 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='controllerReporter'
+0.107 [ Info   ][controllerReporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1286 ).
+0.107 [ Info   ][loadComponent] Adding controllerReporter as new peer:  OK.
+0.108 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.108 [ Info   ][ReportingComponent] Monitoring OutputPort gainsOut : ok.
+0.108 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.108 [ Info   ][ReportingComponent] Monitoring OutputPort debug : ok.
+0.108 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.109 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.109 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=1, with name='controllerReporter'
+0.109 [ Info   ][controllerReporter] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 1 and period 0 (PID= 1287 ).
+0.109 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.109 [ Info   ][ReportingComponent] Monitoring OutputPort gainsOut : ok.
+0.109 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.109 [ Info   ][ReportingComponent] Monitoring OutputPort debug : ok.
+0.109 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.109 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.110 [ Info   ][ReportingComponent] Variable TimeStamp successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.gainsOut.Kp successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.gainsOut.Ki successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.gainsOut.Kd successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.gainsOut.ts_trigger successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.gainsOut.ts_elapsed successfully created
+0.110 [ Info   ][ReportingComponent] Serializer still in progress
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.Kp successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.Ki successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.Kd successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.derivativeLowpassFilterState successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.feedForwardTermAsAngle successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.feedForwardTermAsSpeed successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.ierror successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.derror successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.ts_trigger successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.debug.ts_elapsed successfully created
+0.110 [ Info   ][ReportingComponent] Serializer still in progress
+0.110 [ Info   ][ReportingComponent] Variable controller.data.winchSpeedSetpoint successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.data.carouselSpeedSetpoint successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.data.ts_trigger successfully created
+0.110 [ Info   ][ReportingComponent] Variable controller.data.ts_elapsed successfully created
+0.110 [ Info   ][ReportingComponent] Serializer still in progress
+0.110 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Detected that component functionGenerator exists!
+0.110 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='functionGeneratorReporter'
+0.110 [ Info   ][functionGeneratorReporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1288 ).
+0.110 [ Info   ][loadComponent] Adding functionGeneratorReporter as new peer:  OK.
+0.110 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.110 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.111 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.111 [ Info   ][ReportingComponent] Monitoring OutputPort refData : ok.
+0.111 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=1, with name='functionGeneratorReporter'
+0.111 [ Info   ][functionGeneratorReporter] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 1 and period 0 (PID= 1290 ).
+0.111 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.111 [ Info   ][ReportingComponent] Monitoring OutputPort data : ok.
+0.111 [ Info   ][ReportingComponent] Buffering ports with size 4096, as set in ReportPolicy property.
+0.111 [ Info   ][ReportingComponent] Monitoring OutputPort refData : ok.
+0.111 [ Info   ][ReportingComponent] Variable TimeStamp successfully created
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.data.winchSpeedSetpoint successfully created
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.data.carouselSpeedSetpoint successfully created
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.data.ts_trigger successfully created
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.data.ts_elapsed successfully created
+0.111 [ Info   ][ReportingComponent] Serializer still in progress
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.refData.elevation successfully created
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.refData.ts_trigger successfully created
+0.111 [ Info   ][ReportingComponent] Variable functionGenerator.refData.ts_elapsed successfully created
+0.111 [ Info   ][ReportingComponent] Serializer still in progress
+0.111 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading HIGHWIND telemetry related components...
+0.112 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/siemensSensors/types/SiemensDriveState.so'
+0.113 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/gainLoader/types/ControllerGains.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/lineAngleSensor2/types/LineAngles.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/resampler/types/ResampledMeasurements.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/siemensActuators/types/SiemensDriveCommand.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/armboneLisaSensors/types/ImuGyro.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/armboneLisaSensors/types/ImuAccel.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/armboneLisaSensors/types/ImuMag.so'
+0.114 [ Info   ][ComponentLoader::import(package, path_list)] Loaded multi component library '../../components/carousel2/controllerTemplate/types/PIDControllerDebug.so'
+0.114 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='siemensSensorsTelemetry'
+0.114 [ Info   ][siemensSensorsTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1292 ).
+0.114 [ Info   ][loadComponent] Adding siemensSensorsTelemetry as new peer:  OK.
+0.114 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='lineAngleSensor2Telemetry'
+0.114 [ Info   ][lineAngleSensor2Telemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1293 ).
+0.115 [ Info   ][loadComponent] Adding lineAngleSensor2Telemetry as new peer:  OK.
+0.115 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='armboneGyroTelemetry'
+0.115 [ Info   ][armboneGyroTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1294 ).
+0.115 [ Info   ][loadComponent] Adding armboneGyroTelemetry as new peer:  OK.
+0.115 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='armboneAccelTelemetry'
+0.115 [ Info   ][armboneAccelTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1295 ).
+0.115 [ Info   ][loadComponent] Adding armboneAccelTelemetry as new peer:  OK.
+0.115 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='armboneMagTelemetry'
+0.115 [ Info   ][armboneMagTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1296 ).
+0.115 [ Info   ][loadComponent] Adding armboneMagTelemetry as new peer:  OK.
+0.115 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='resampledMeasurementsTelemetry'
+0.115 [ Info   ][resampledMeasurementsTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1297 ).
+0.115 [ Info   ][loadComponent] Adding resampledMeasurementsTelemetry as new peer:  OK.
+0.115 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='controllerTelemetry'
+0.116 [ Info   ][controllerTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1298 ).
+0.116 [ Info   ][loadComponent] Adding controllerTelemetry as new peer:  OK.
+0.116 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='pidDebugTelemetry'
+0.116 [ Info   ][pidDebugTelemetry] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1299 ).
+0.116 [ Info   ][loadComponent] Adding pidDebugTelemetry as new peer:  OK.
+0.116 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/main/HighwindStuff ...
+0.116 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/klarl/planepower/components/main/HighwindStuff/types ...
+0.119 [ Info   ][TypekitRepository::Import] Loading Typekit HighwindTypes.
+0.120 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'HighwindTypes' from 'HighwindTypes.so'
+0.120 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/klarl/planepower/components/main/HighwindStuff/plugins ...
+0.120 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'HighwindServices' from 'HighwindServices.so'
+0.120 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='siemensSensorsTelemetry'
+0.120 [ Info   ][siemensSensorsTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1300 ).
+0.120 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='lineAngleSensor2Telemetry'
+0.121 [ Info   ][lineAngleSensor2Telemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1301 ).
+0.121 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='armboneGyroTelemetry'
+0.121 [ Info   ][armboneGyroTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1302 ).
+0.121 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='armboneAccelTelemetry'
+0.121 [ Info   ][armboneAccelTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1303 ).
+0.121 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='armboneMagTelemetry'
+0.121 [ Info   ][armboneMagTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1304 ).
+0.121 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='resampledMeasurementsTelemetry'
+0.121 [ Info   ][resampledMeasurementsTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1305 ).
+0.121 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='controllerTelemetry'
+0.121 [ Info   ][controllerTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1306 ).
+0.121 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=30, CPU affinity=2, with name='pidDebugTelemetry'
+0.121 [ Info   ][pidDebugTelemetry] Thread created with scheduler type 'ORO_SCHED_RT', priority 30, cpu affinity 2 and period 0.02 (PID= 1307 ).
+0.122 [ Info   ][connect] Connected Port siemensSensors.data to  siemensSensorsTelemetry.msgData.
+0.122 [ Info   ][connect] Connected Port lineAngleSensor2.data to  lineAngleSensor2Telemetry.msgData.
+0.122 [ Info   ][connect] Connected Port armboneLisaSensors.GyroState to  armboneGyroTelemetry.msgData.
+0.122 [ Info   ][connect] Connected Port armboneLisaSensors.AccelState to  armboneAccelTelemetry.msgData.
+0.122 [ Info   ][connect] Connected Port armboneLisaSensors.MagState to  armboneMagTelemetry.msgData.
+0.122 [ Info   ][connect] Connected Port resampler.data to  resampledMeasurementsTelemetry.msgData.
+0.122 [ Info   ][connect] Connected Port controller.data to  controllerTelemetry.msgData.
+0.122 [ Info   ][connect] Connected Port controller.debug to  pidDebugTelemetry.msgData.
+0.124 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading ramp generator components...
+0.124 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/klarl/planepower/components/carousel2/rampGenerator ...
+0.128 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/klarl/planepower/components/carousel2/rampGenerator/rampGenerator.so'
+0.128 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'RampGenerator'
+0.128 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='rampGenerator'
+0.128 [ Info   ][rampGenerator] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 1324 ).
+0.128 [ Info   ][loadComponent] Adding rampGenerator as new peer:  OK.
+0.128 [ Info   ][/opt/ros/hydro/bin/rttlua-gnulinux::main()] Loading Service or Plugin marshalling in TaskContext rampGenerator
+0.129 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=97, CPU affinity=64, with name='rampGenerator'
+0.129 [ Info   ][rampGenerator] Thread created with scheduler type 'ORO_SCHED_RT', priority 97, cpu affinity 64 and period 0.1 (PID= 1325 ).
+0.129 [ Info   ][connect] Connected Port siemensSensors.data to  rampGenerator.driveState.
+0.129 [ Info   ][connect] Connected Port rampGenerator.driveCommand to  siemensActuators.controls.
+127.429 [ Warning][/opt/ros/hydro/bin/rttlua-gnulinux::main()] controllerTemplate: No new measurment data!! 
